@@ -5,6 +5,6 @@ import { CommentService } from 'src/comment/comment.service';
 
 @Module({
   controllers: [UserController],
-  providers: [UserService, CommentService]
+  providers: [UserService, CommentService],
 })
 export class UserModule {}
